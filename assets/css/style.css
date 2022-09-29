@@ -30,20 +30,14 @@ img{
 
 .pt_15{
     padding-top: 15rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
 }
 
 .logobanner{
     width: 200px;
 }
-
-.sfondo{
-    z-index: 0;
-}
-
-.prova{
-    background-image: url(../img/jumbo-bg.png);
-}
-
 .p_border{
     padding: 2px;
 }
@@ -54,4 +48,27 @@ img{
 
 .sony_entertaiment{
     width: 150px;
+}
+
+.text_block h4 {
+    font-size: 0.75rem;
+    font-weight: bold;
+   
+}
+
+
+@media screen and (min-width: 768px) {
+    .logobanner{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logobanner{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
