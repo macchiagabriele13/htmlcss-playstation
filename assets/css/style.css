@@ -28,6 +28,12 @@ img{
    
 }
 
+#two_of_us{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .pt_15{
     padding-top: 15rem;
     padding-left: 3rem;
