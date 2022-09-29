@@ -71,10 +71,17 @@ img{
 }
 
 
+@media screen and (min-width: 576px) {
+   .riga{
+    flex-direction: row;
+   }
+}
+
 @media screen and (min-width: 768px) {
     .logobanner{
         width: 400px;
     }
+    
 }
 
 @media screen and (min-width: 992px) {
