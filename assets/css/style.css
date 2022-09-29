@@ -55,6 +55,14 @@ img{
     font-weight: bold;
    
 }
+.active{
+    border-bottom: 2px solid blue;
+}
+.hover{
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
 
 
 @media screen and (min-width: 768px) {
