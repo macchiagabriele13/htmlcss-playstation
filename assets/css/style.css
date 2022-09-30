@@ -114,7 +114,7 @@ p_banner{
 }
 
 .pd{
-    height: 100px;
+    /* height: 100px; */
 }
 
 .pd> img{
@@ -139,6 +139,10 @@ p_banner{
    .riga{
     flex-direction: row;
    }
+   .imagebox{
+    padding: 0px;
+}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -146,6 +150,9 @@ p_banner{
         width: 400px;
     }
     
+    .imagebox{
+        padding: 0 6rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
