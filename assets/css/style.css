@@ -133,7 +133,39 @@ p_banner{
 
 }
 
+.card_img_container:hover{
+    border: 3px solid #0d6efd ;
+    border-radius: 0.5rem;
+    padding: 2px;
+    cursor: pointer;
+}
 
+.visible:hover{
+    display: none;
+}
+.active_hover:hover{
+    border-bottom: 2px solid #0d6efd;
+    cursor: pointer;
+}
+
+
+
+/* transition */
+
+.card_img_container{
+    position: relative;
+    animation-name: up;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    
+    50%  { left:0px; top:200px;}
+   
+    100% { left:0px; top:0px;}
+  }
 
 @media screen and (min-width: 576px) {
    .riga{
