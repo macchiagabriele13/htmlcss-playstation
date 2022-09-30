@@ -138,6 +138,7 @@ p_banner{
     border-radius: 0.5rem;
     padding: 2px;
     cursor: pointer;
+    transform: translate(0, -20px);
 }
 
 .visible:hover{
@@ -148,7 +149,11 @@ p_banner{
     cursor: pointer;
 }
 
-
+.card_img_container {
+    transition: transform 1s;
+  }
+  
+  
 
 /* transition */
 
