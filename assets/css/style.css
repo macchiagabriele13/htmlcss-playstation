@@ -70,6 +70,66 @@ img{
     top: 0;
 }
 
+.logo_social{
+    height: 50px;
+}
+
+.imagebox{
+    padding: 10rem;
+}
+
+.imagebox> img{
+    height: 100px;
+    width: 100px;
+}
+
+.play_plus{
+    background-color: #BEBCBB;
+    ;
+}
+.play_now{
+    background-color: #161C3B;
+    
+    
+}
+
+.play_plus.background_add{
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+}
+
+.play_now.background_add{
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: contain;
+
+}
+
+p_banner{
+    font-size: .85rem!important;
+}
+
+.pd{
+    height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .play_plus.background_add{
+     background-image: none;
+        
+    }
+    .play_now.background_add{
+        background-image: none;
+           
+       }
+
+}
+
+
 
 @media screen and (min-width: 576px) {
    .riga{
